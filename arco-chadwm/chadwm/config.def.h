@@ -37,7 +37,7 @@ static const int new_window_attach_on_end = 0; /*  1 means the new window will a
 #define ICONSIZE 19   /* icon size */
 #define ICONSPACING 8 /* space between icon and title */
 
-static const char *fonts[]          = {"JetBrainsMono Nerd Font Mono:style:bold:size=16"}; /* 13 for VMWARE */
+static const char *fonts[]          = {"JetBrainsMono Nerd Font Mono:style:bold:size=16"};
 
 // theme
 #include "themes/onedark.h"
@@ -85,6 +85,7 @@ static const char* jgmenu_run[] = { "jgmenu_run", NULL};
 static const char* pcmanfm[] = { "pcmanfm", NULL};
 static const char* pavucontrol[] = { "pavucontrol", NULL };
 static const char* weather[] = { "lxterminal","-e"," curl wttr.in/Caerphilly && read", NULL};
+static const char* moc[] = { "mocp", "-G", NULL };
 
 static const Launcher launchers[] = {
     /* command     name to display 
@@ -95,6 +96,7 @@ static const Launcher launchers[] = {
     { pcmanfm,     "󰉋" },
     { pavucontrol,   "" },
     { weather, "" },
+    { moc, "󰒭" },
 };
 
 static const int tagschemes[] = {
