@@ -82,8 +82,8 @@ static char *tags[] = { "", "", "", "", "", "", "", "", 
 static const char* discord[] = { "discord", "open" , "discord", NULL };
 static const char* telegram[] = { "telegram-desktop", "open" , "telegram-desktop", NULL }; */
 static const char* jgmenu_run[] = { "jgmenu_run", NULL};
-static const char* pcmanfm[] = { "pcmanfm", NULL};
-static const char* pavucontrol[] = { "pavucontrol", NULL };
+static const char* right[] = { "xdotool","key", "Super+l", NULL};
+static const char* left[] = { "xdotool","key", "Super+h", NULL };
 static const char* weather[] = { "lxterminal","-e"," curl wttr.in/Caerphilly && read", NULL};
 static const char* moc[] = { "mocp", "-G", NULL };
 
@@ -93,10 +93,10 @@ static const Launcher launchers[] = {
     { discord,       "ﱲ" },
     { telegram,      "" }, */
     { jgmenu_run, "" },
-    { pcmanfm,     "󰉋" },
-    { pavucontrol,   "" },
-    { weather, "" },
-    { moc, "󰒭" },
+    { right,     "⟩" },
+    { left,   "⟨" },
+    { weather, "" },
+    { moc, "" },
 };
 
 static const int tagschemes[] = {
