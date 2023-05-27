@@ -146,6 +146,9 @@ ctrl + shift + p
 	
 ctrl + Right
 	feh --bg-scale --randomize ~/Pictures/wallpapers/*
+	
+~button2
+	jgmenu_run
 
 #################################################################
 # CONTROL + ALT KEYS
