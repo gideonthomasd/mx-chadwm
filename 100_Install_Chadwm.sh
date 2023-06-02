@@ -36,7 +36,7 @@ cp lxterminal.conf ~/.config/lxterminal
 cp log.sh ~/log.sh
 cp bashrc ~/.bashrc
 
-sudo dpkg -i jgmenu_4.4.0-1_amd64.deb
+sudo dpkg -i jgmenu_4.4.1-1_amd64.deb
 
 ####Installation#########
 ###DEBIAN################
