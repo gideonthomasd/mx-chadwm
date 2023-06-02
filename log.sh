@@ -30,8 +30,10 @@ case $chosen in
 		sleep 1800 && systemctl suspend;;
     $option6)
 		#systemctl reboot;;
+		#loginctl reboot;;
         sudo reboot;;
 	$option7)
 		#systemctl poweroff;;
+		#loginctl poweroff;;
         sudo poweroff;;
 esac
