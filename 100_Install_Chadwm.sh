@@ -41,7 +41,7 @@ sudo dpkg -i jgmenu_4.4.1-1_amd64.deb
 ####Installation#########
 ###DEBIAN################
 sudo apt install i3lock-fancy lxpolkit rofi dmenu curl pcmanfm xfce4-terminal lxterminal volumeicon-alsa libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential moc parcellite lolcat picom sxhkd lxappearance
-sudo apt install xdotool feh geany ffmpeg
+sudo apt install xdotool feh geany ffmpeg lxtask
 sudo apt install yt-dlp
 
 
