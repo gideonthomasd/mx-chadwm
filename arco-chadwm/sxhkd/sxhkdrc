@@ -126,7 +126,8 @@ super + shift + d
 
 #rofi large
 super + d
-    rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/arco-chadwm/rofi/launcher2.rasi
+	~/.config/rofi/launchers/colorful/launcher.sh
+    #rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/arco-chadwm/rofi/launcher2.rasi
 
 #reload sxhkd:
 super + shift + s
