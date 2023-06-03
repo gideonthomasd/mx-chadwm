@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -r Bibata-Modern-Ice ~/.icons
+cp -r Bibata-Modern-Ice ~/.icons/Bibata-Modern-Ice
 # sudo cp -r Bibata-Modern-Ice /usr/share/icons
 
 echo "May need to change /home/phil/.config/gtk-3.0/settings.ini"
