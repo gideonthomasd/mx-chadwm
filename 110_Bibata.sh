@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir -p ~/.icons
+mkdir -p ~/.themes
+
 cp -r Bibata-Modern-Ice ~/.icons/Bibata-Modern-Ice
 # sudo cp -r Bibata-Modern-Ice /usr/share/icons
 
@@ -8,3 +11,10 @@ echo " and /home/phil/.icons/default/index.theme"
 # May need to change /home/phil/.config/gtk-3.0/settings.ini
 
 # and /home/phil/.icons/default/index.theme
+
+tar -xzvf candy-icons.tar.gz
+tar -xzvf Dracula.tar.gz
+
+
+cp -r candy-icons ~/.icons/candy-icons
+cp -r Dracula ~/.themes/Dracula
