@@ -36,15 +36,20 @@ cp lxterminal.conf ~/.config/lxterminal
 cp log.sh ~/log.sh
 cp bashrc ~/.bashrc
 
-sudo dpkg -i jgmenu_4.4.1-1_amd64.deb
+sudo apt install gdebi gdebi-core -y
+
+#sudo dpkg -i jgmenu_4.4.1-1_amd64.deb
+sudo gdebi jgmenu_4.4.1-1_amd64.deb
 
 ####Installation#########
 ###DEBIAN################
-sudo apt install i3lock-fancy lxpolkit rofi dmenu curl pcmanfm xfce4-terminal lxterminal volumeicon-alsa libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential moc parcellite lolcat picom sxhkd lxappearance
-sudo apt install xdotool feh geany ffmpeg lxtask
-sudo apt install yt-dlp
+sudo apt install i3lock-fancy lxpolkit rofi dmenu curl pcmanfm xfce4-terminal lxterminal volumeicon-alsa libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential moc parcellite lolcat picom sxhkd lxappearance -y
+sudo apt install xdotool feh geany ffmpeg lxtask -y
+
 
 
 ######Chadwm#############
 cd ~/.config/arco-chadwm/chadwm
 sudo make clean install
+
+sudo apt install yt-dlp
