@@ -3,6 +3,26 @@
 sudo cp chadwm.desktop /usr/share/xsessions/chadwm.desktop
 sudo cp chad-exec.sh /usr/bin/chad-exec
 
+######## Rofi ##########################
+cd rofi
+cd applets
+cd applets
+chmod +x *.sh
+cd ..
+cd ..
+cd launchers
+cd colorful
+chmod +x *.sh
+cd ..
+cd ..
+cd ..
+
+mkdir -p ~/.config/rofi
+cd rofi
+cp -r * ~/.config/rofi
+cd ..
+########################################
+
 cd arco-chadwm
 cd scripts
 chmod +x *.sh
@@ -44,7 +64,7 @@ sudo gdebi jgmenu_4.4.1-1_amd64.deb
 ####Installation#########
 ###DEBIAN################
 sudo apt install i3lock-fancy lxpolkit rofi dmenu curl pcmanfm xfce4-terminal lxterminal volumeicon-alsa libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential moc parcellite lolcat picom sxhkd lxappearance -y
-sudo apt install xdotool feh geany ffmpeg lxtask -y
+sudo apt install neofetch xdotool feh geany ffmpeg lxtask pavucontrol calcurse htop aptitude -y
 
 
 
