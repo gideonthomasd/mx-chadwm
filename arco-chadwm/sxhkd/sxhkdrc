@@ -90,6 +90,9 @@ super + t
 super + v
     pavucontrol
 
+super + g
+	geany
+
 #Pragha
 #super + m
 #    pragha
