@@ -10,11 +10,14 @@ super + Return
 super + p
 	dmenu_run -fn "Noto Sans Regular-16" -sb "#990000" -sf "#FFFF66" -p "Run: "
 
-ctrl + g
+super + g
 	geany
 	
-ctrl + v
+super + v
 	pavucontrol
+	
+super + r
+	rofi-theme-selector
 
 super + d
 	~/.config/rofi/launchers/colorful/launcher.sh
