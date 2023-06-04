@@ -24,3 +24,6 @@ cd polybar-bspwm
 cp -r * ~/.config/polybar-bspwm
 cd ..
 
+cd mononoki
+cp -r * ~/.local/share/fonts
+cd ..
