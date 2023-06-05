@@ -79,6 +79,9 @@ ctrl + shift + p
 ctrl + Right
 	feh --bg-scale --randomize ~/Pictures/wallpapers/*
 	
+alt + r
+	xterm -e 'ranger ~/Pictures/wallpapers'
+	
 super + z
 	xfce4-appfinder
 	
@@ -114,8 +117,8 @@ super + y
 	bspc node newest.marked.local -n newest.!automatic.local
 
 # swap the current node and the biggest window
-super + g
-	bspc node -s biggest.window
+#super + g
+	#bspc node -s biggest.window
 
 #
 # state/flags
