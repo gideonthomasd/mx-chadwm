@@ -20,3 +20,8 @@ tar -xzvf Sweet-Dark.tar.gz
 cp -r candy-icons ~/.icons/candy-icons
 cp -r Dracula ~/.themes/Dracula
 cp -r Sweet-Dark ~/.themes/Sweet-Dark
+
+mkdir -p ~/.local/share/rofi/themes
+cd rofithemes
+cp -r * ~/.local/share/rofi/themes
+cd ..
