@@ -8,6 +8,10 @@ interval=0
 # load colors
 . ~/.config/arco-chadwm/scripts/bar_themes/onedark
 
+space() {
+	printf "         "
+}
+
 audacious() {
 	printf "^c$red^ $(/home/phil/.config/arco-chadwm/scripts/audacious.sh 0 12)"
 	
@@ -66,5 +70,5 @@ while true; do
   [ $interval = 0 ] || [ $(($interval % 3600)) = 0 ] && updates=$(pkg_updates)
   interval=$((interval + 1))
 
-  sleep 2 && xsetroot -name "$updates $(mem) $(moc) $(clock)"
+  sleep 2 && xsetroot -name "$(space) $updates $(mem) $(moc) $(clock)"
 done
