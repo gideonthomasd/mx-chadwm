@@ -64,7 +64,7 @@ sudo gdebi jgmenu_4.4.1-1_amd64.deb
 ####Installation#########
 ###DEBIAN################
 sudo apt install i3lock-fancy lxpolkit rofi dmenu curl pcmanfm xfce4-terminal lxterminal volumeicon-alsa libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential moc parcellite lolcat picom sxhkd lxappearance -y
-sudo apt install neofetch xdotool feh geany ffmpeg lxtask pavucontrol calcurse htop aptitude -y
+sudo apt install neofetch xdotool feh geany ffmpeg lxtask pavucontrol pulseaudio calcurse htop aptitude -y
 
 
 
@@ -72,4 +72,4 @@ sudo apt install neofetch xdotool feh geany ffmpeg lxtask pavucontrol calcurse h
 cd ~/.config/arco-chadwm/chadwm
 sudo make clean install
 
-sudo apt install yt-dlp
+sudo apt install yt-dlp -y
