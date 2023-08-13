@@ -19,6 +19,10 @@ cd xfce4
 cp -r * ~/.config/xfce4
 cd ..
 
+cd autostart
+cp -r * ~/.config/autostart
+cd ..
+
 echo "Insert audacious, plank, volumeicon into startup session"
 
 echo "Greybird-dark-mx; Papirus-dark or Kora; In mouse do Bibata-Modern_Ice"
