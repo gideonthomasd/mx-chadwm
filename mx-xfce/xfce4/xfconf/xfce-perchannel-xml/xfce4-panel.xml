@@ -12,7 +12,7 @@
       <property name="icon-size" type="uint" value="22"/>
       <property name="size" type="uint" value="38"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="24"/>
+        <value type="int" value="17"/>
         <value type="int" value="9"/>
         <value type="int" value="12"/>
         <value type="int" value="10"/>
@@ -47,6 +47,9 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="mx-usb-unmounter"/>
         <value type="string" value="deadbeef"/>
         <value type="string" value="audacious"/>
         <value type="string" value="volumeicon"/>
@@ -55,6 +58,7 @@
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="apt-notifier.py"/>
         <value type="string" value="blueman"/>
         <value type="string" value="dnfdragora-updater"/>
       </property>
@@ -69,7 +73,7 @@
       <property name="show-seconds" type="bool" value="false"/>
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-font" type="string" value="Sans 15"/>
-      <property name="digital-time-font" type="string" value="Sans Bold 16"/>
+      <property name="digital-time-font" type="string" value="Roboto Bold 16"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
       <property name="digital-date-format" type="string" value="%d %B %Y"/>
     </property>
@@ -79,7 +83,7 @@
     <property name="plugin-7" type="string" value="clock">
       <property name="digital-layout" type="uint" value="2"/>
       <property name="digital-date-format" type="string" value="%b %d, %Y"/>
-      <property name="digital-date-font" type="string" value="Sans Bold 16"/>
+      <property name="digital-date-font" type="string" value="Roboto Bold 16"/>
     </property>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
@@ -92,23 +96,6 @@
     </property>
     <property name="plugin-23" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-24" type="string" value="actions">
-      <property name="appearance" type="uint" value="0"/>
-      <property name="items" type="array">
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-hybrid-sleep"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="-shutdown"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-logout-dialog"/>
-      </property>
     </property>
     <property name="plugin-2" type="string" value="weather">
       <property name="location" type="empty">
@@ -154,6 +141,23 @@
     <property name="plugin-15" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16917852672.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
       </property>
     </property>
   </property>
