@@ -1,6 +1,6 @@
 Terminal,xfce4-terminal,lxterminal
 Browser,brave-browser,brave-browser
-File manager,pcmanfm,system-file-manager
+File manager,pcmanfm,org.xfce.filemanager
 Steam, steam, steam
 Scid Chess, scid, scid
 Virtual Manager, virt-manager, virt-manager
