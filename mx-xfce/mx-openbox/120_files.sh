@@ -6,7 +6,7 @@ chmod +x zentile_linux_amd64
 chmod +x *.sh
 
 cp zentile_linux_amd64 ~/.config/zentile_linux_amd64
-cp restart_zentile.sh ~/.config/zentile_linux_amd64
+cp restart_zentile.sh ~/.config/restart_zentile.sh
 
 #mkdir -p ~/.config/xfce4/terminal
 #cp terminalrc ~/.config/xfce4/terminal/terminalrc
