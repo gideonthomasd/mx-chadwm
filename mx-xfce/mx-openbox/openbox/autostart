@@ -8,7 +8,7 @@ parcellite &
 #blueman-applet &
 picom &
 plank &
-volumeicon &
+pasystray &
 #conky -c ~/.config/conky/sysinfo_mbcolor.conkyrc &
 
 ~/.config/zentile_linux_amd64 &
