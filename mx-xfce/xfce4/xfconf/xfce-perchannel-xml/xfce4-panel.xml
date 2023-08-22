@@ -20,6 +20,7 @@
         <value type="int" value="23"/>
         <value type="int" value="7"/>
         <value type="int" value="3"/>
+        <value type="int" value="16"/>
         <value type="int" value="1"/>
         <value type="int" value="4"/>
         <value type="int" value="15"/>
@@ -47,6 +48,13 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="pasystray"/>
+        <value type="string" value="wi-fi network connection “hometelecomtbne2g” active: hometelecomtbne2g (67%)"/>
+        <value type="string" value="wi-fi network connection “hometelecomtbne2g” active: hometelecomtbne2g (61%)"/>
+        <value type="string" value="wi-fi network connection “hometelecomtbne2g” active: hometelecomtbne2g (62%)"/>
+        <value type="string" value="wi-fi network connection “hometelecomtbne2g” active: hometelecomtbne2g (63%)"/>
+        <value type="string" value="wi-fi network connection “hometelecomtbne2g” active: hometelecomtbne2g (58%)"/>
+        <value type="string" value="wi-fi network connection “hometelecomtbne2g” active: hometelecomtbne2g (65%)"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="clipman"/>
         <value type="string" value="mx-usb-unmounter"/>
@@ -58,6 +66,7 @@
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="pasystray"/>
         <value type="string" value="apt-notifier.py"/>
         <value type="string" value="blueman"/>
         <value type="string" value="dnfdragora-updater"/>
@@ -160,5 +169,6 @@
         <value type="string" value="-logout-dialog"/>
       </property>
     </property>
+    <property name="plugin-16" type="string" value="whiskermenu"/>
   </property>
 </channel>
