@@ -2,9 +2,9 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=VolumeIcon
+Name=My Volume.sh
 Comment=
-Exec=volumeicon
+Exec=sh /home/phil/volume.sh
 OnlyShowIn=XFCE;
 RunHook=0
 StartupNotify=false
